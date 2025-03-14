@@ -2,7 +2,7 @@
 
     <servers>
     <server>
-        <id>sevenday-devops-sevenday-devops-cicd</id>
+        <id>sevenday-sevenday-devops-cicd</id>
         <username>aws</username>
         <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
     </server>
@@ -10,14 +10,14 @@
 
     <profiles>
     <profile>
-        <id>sevenday-devops-sevenday-devops-cicd</id>
+        <id>sevenday-sevenday-devops-cicd</id>
         <activation>
         <activeByDefault>true</activeByDefault>
         </activation>
         <repositories>
         <repository>
-            <id>sevenday-devops-sevenday-devops-cicd</id>
-            <url>https://sevenday-devops-539247488428.d.codeartifact.ap-south-1.amazonaws.com/maven/sevenday-devops-cicd/</url>
+            <id>sevenday-sevenday-devops-cicd</id>
+            <url>https://sevenday-539247488428.d.codeartifact.ap-south-1.amazonaws.com/maven/sevenday-devops-cicd/</url>
         </repository>
         </repositories>
     </profile>
@@ -25,9 +25,9 @@
 
     <mirrors>
     <mirror>
-        <id>sevenday-devops-sevenday-devops-cicd</id>
-        <name>sevenday-devops-sevenday-devops-cicd</name>
-        <url>https://sevenday-devops-539247488428.d.codeartifact.ap-south-1.amazonaws.com/maven/sevenday-devops-cicd/</url>
+        <id>sevenday-sevenday-devops-cicd</id>
+        <name>sevenday-sevenday-devops-cicd</name>
+        <url>https://sevenday-539247488428.d.codeartifact.ap-south-1.amazonaws.com/maven/sevenday-devops-cicd/</url>
         <mirrorOf>*</mirrorOf>
     </mirror>
     </mirrors>
