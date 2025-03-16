@@ -30,7 +30,7 @@
         <url>https://sevenday-539247488428.d.codeartifact.ap-south-1.amazonaws.com/maven/sevenday-devops-cicd/</url>
         <mirrorOf>*</mirrorOf>
     </mirror>
-    </mirrors>
+    </mirrors>  
 
 
 </settings>
