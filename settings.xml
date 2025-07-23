@@ -1,36 +1,36 @@
 <settings>
 
     <servers>
-    <server>
-        <id>sevenday-sevenday-devops-cicd</id>
-        <username>aws</username>
-        <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
-    </server>
+        <server>
+            <id>nextwork-nextwork-devops-cicd</id>
+            <username>aws</username>
+            <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+        </server>
     </servers>
 
     <profiles>
-    <profile>
-        <id>sevenday-sevenday-devops-cicd</id>
-        <activation>
-        <activeByDefault>true</activeByDefault>
-        </activation>
-        <repositories>
-        <repository>
-            <id>sevenday-sevenday-devops-cicd</id>
-            <url>https://sevenday-539247488428.d.codeartifact.ap-south-1.amazonaws.com/maven/sevenday-devops-cicd/</url>
-        </repository>
-        </repositories>
-    </profile>
+        <profile>
+            <id>nextwork-nextwork-devops-cicd</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>nextwork-nextwork-devops-cicd</id>
+                    <url>https://nextwork-539247488428.d.codeartifact.ap-south-1.amazonaws.com/maven/nextwork-devops-cicd/</url>
+                </repository>
+            </repositories>
+        </profile>
     </profiles>
 
     <mirrors>
-    <mirror>
-        <id>sevenday-sevenday-devops-cicd</id>
-        <name>sevenday-sevenday-devops-cicd</name>
-        <url>https://sevenday-539247488428.d.codeartifact.ap-south-1.amazonaws.com/maven/sevenday-devops-cicd/</url>
-        <mirrorOf>*</mirrorOf>
-    </mirror>
-    </mirrors>  
+        <mirror>
+            <id>nextwork-nextwork-devops-cicd</id>
+            <name>nextwork-nextwork-devops-cicd</name>
+            <url>https://nextwork-539247488428.d.codeartifact.ap-south-1.amazonaws.com/maven/nextwork-devops-cicd/</url>
+            <mirrorOf>*</mirrorOf>
+        </mirror>
+    </mirrors> 
 
 
 </settings>
