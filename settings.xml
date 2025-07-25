@@ -30,7 +30,7 @@
             <url>https://nextwork-539247488428.d.codeartifact.ap-south-1.amazonaws.com/maven/nextwork-devops-cicd/</url>
             <mirrorOf>*</mirrorOf>
         </mirror>
-    </mirrors> 
+    </mirrors>
 
 
 </settings>
